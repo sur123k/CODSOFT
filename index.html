@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+  
+    <div class="container">
+    <br>
+    <table>
+        <tr>
+            <td colspan="3"><input type='text' id='ans' class ='screen' style="text-align: right; "></td>
+            <td>
+                <input type='button' value = 'C' onclick="toclear()" class="clear"/>
+            </td>
+        </tr>
+    </table>
+
+    <div class="assign">
+    <input type="button" value="7" class="number" onClick="fordisplay('7')"></input>
+    <input type="button" value="8" class="number " onClick="fordisplay('8')"></input>
+    <input type="button" value="9" class="number" onClick="fordisplay('9')"></input>
+    <input type="button" value="+" class="operator" onClick="fordisplay('+')"></input>
+    <input type="button" value="4" class="number" onClick="fordisplay('4')"></input>
+    <input type="button" value="5" class="number" onClick="fordisplay('5')"></input>
+    <input type="button" value="6" class="number" onClick="fordisplay('6')"></input>
+    <input type="button" value="-" class="operator" onClick="fordisplay('-')"></input>
+    <input type="button" value="1" class="number" onClick="fordisplay('1')"></input>
+    <input type="button" value="2" class="number" onClick="fordisplay('2')"></input>
+    <input type="button" value="3" class="number" onClick="fordisplay('3')"></input>
+    <input type="button" value="*" class="operator" onClick="fordisplay('*')"></input>
+    <input type="button" value="0" class="number" onClick="fordisplay('0')"></input>
+    <input type="button" value="." class="number" onClick="fordisplay('.')"></input>
+    <input type="button" value= "=" class="button equal-sign" onClick="shouldsolve()"></input>
+    <input type="button" value="/" class="operator" onClick="fordisplay('/')"></input>
+</div>
+</div>
+</body>
+</html>
